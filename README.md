@@ -1,17 +1,16 @@
 # Getting Started
 
-```
+```bash
 npm install
 ```
 
-```
+```bash
 npx create-onchain --manifest
 ```
 
 Setup Environment see the example at `.env.example`
 
-```
-
+```bash
 NEXT_PUBLIC_PROJECT_NAME=""
 NEXT_PUBLIC_ONCHAINKIT_API_KEY=""
 NEXT_PUBLIC_URL=""
@@ -23,5 +22,4 @@ FARCASTER_SIGNATURE=""
 # Vercel Required Environment Variables
 # From coinbase developer platform - https://developer.coinbase.com/docs/wallet/mini-apps/getting-started
 # NEXT_PUBLIC_CDP_CLIENT_API_KEY=""
-
 ```
